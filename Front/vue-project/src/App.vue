@@ -1,6 +1,5 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
 import Index from './components/Index.vue'
 </script>
 
@@ -18,7 +17,7 @@ import Index from './components/Index.vue'
     </div>
   </header> -->
   <Index />
-<!--   <RouterView /> -->
+  <RouterView />
 </template>
 
 <style scoped>
